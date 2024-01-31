@@ -1,0 +1,53 @@
+.card {
+  cursor: pointer;
+  border: 3px solid transparent;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.selected {
+  border-color: green;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.character-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.card {
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  text-align: center;
+}
+
+.selected {
+  border-color: green;
+}
+
+.character-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 650px;
+}
+
+#cost-area {
+  justify-self: center;
+  align-self: center;
+}
